@@ -23,36 +23,36 @@ Kolkata, Ahmedabad, Jaipur and more.
 
 ## What Business Problems I Solved
 
-Query 1 - Top Products
+Query 1 - Top Products:
 I found which products make the most revenue for the business.
 SQL used: GROUP BY and ORDER BY
 
-Query 2 - Regional Performance
+Query 2 - Regional Performance:
 I identified which regions in India are performing above
 100k revenue and which regions need more focus.
 SQL used: GROUP BY and HAVING
 
-Query 3 - Customer Lifetime Value
+Query 3 - Customer Lifetime Value:
 I found the top 10 most valuable customers based on
 how much they spent in total across all their orders.
 SQL used: GROUP BY and MAX
 
-Query 4 - Monthly Trends
+Query 4 - Monthly Trends:
 I tracked whether the business is growing or declining
 every month by comparing this month vs last month sales.
 SQL used: LAG Window Function
 
-Query 5 - Top Product Per Category
+Query 5 - Top Product Per Category:
 I found the single best selling product in each category
 like Electronics, Furniture, Clothing and Food.
 SQL used: ROW_NUMBER and CTE
 
-Query 6 - City wise Sales Ranking
+Query 6 - City wise Sales Ranking:
 I ranked all Indian cities from highest to lowest sales
 to find which city contributes most to the business.
 SQL used: DENSE_RANK Window Function
 
-Query 7 - Customer Segmentation
+Query 7 - Customer Segmentation:
 I grouped all customers into 4 segments based on how
 often they buy and how much they spend.
 Champion - Buys a lot and spends the most
@@ -61,7 +61,7 @@ Potential - Occasional buyers
 New Customer - Just started buying
 SQL used: CASE WHEN
 
-Query 8 - Category Growth by Month
+Query 8 - Category Growth by Month:
 I compared month over month growth for each category
 separately to see which category is growing the fastest.
 SQL used: LAG with PARTITION BY
