@@ -1,7 +1,4 @@
-# sql-indian-sales-project
-SQL Data Analysis Project on Indian Sales Data using MySQL
-
-# Indian Sales Data - SQL Portfolio Project
+# Indian Sales Data Analysis Using MySQL
 
 ## About This Project
 I built this project to practice and showcase my SQL skills.
